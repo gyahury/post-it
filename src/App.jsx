@@ -1,5 +1,10 @@
+import Post from "./components/Post";
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return <main>
+    <Post author="오레와" body="리액트"/> 
+    <Post /> 
+  </main>
 }
 
 export default App;
