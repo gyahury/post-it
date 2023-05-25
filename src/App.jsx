@@ -1,4 +1,4 @@
-import PostList from "./components/Postlist";
+import PostList from "./components/PostList";
 
 function App() {
   return <main>
