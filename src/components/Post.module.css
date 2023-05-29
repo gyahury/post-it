@@ -1,26 +1,25 @@
 .post {
   margin: 1rem 0;
   padding: 1rem;
-  background-color: #ffcdc1;
+  background-color: #ffdbdb;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   animation: animate-in 1s ease-out forwards;
 }
 
-.author {
-  font-size: 0.8rem;
+.title {
+  font-size: 1rem;
   font-weight: bold;
-  color: #c44b38;
+  color: #020000a5;
   margin: 0;
   text-transform: uppercase;
 }
 
 .text {
   white-space: pre-wrap;
-  font-size: 1.25rem;
-  margin: 0.25rem 0 0 0;
-  color: #db5a46;
-  font-style: italic;
+  font-size: 0.95rem;
+  margin: 1rem 0 0 0;
+  color: #020000a5;
 }
 
 @keyframes animate-in {

@@ -1,4 +1,4 @@
-import { MdPostAdd, MdMessage } from "react-icons/md";
+import { MdPostAdd, MdModeEdit } from "react-icons/md";
 
 import classes from "./MainHeader.module.css";
 
@@ -6,8 +6,8 @@ function MainHeader({ onCreatePost }) {
   return (
     <header className={classes.header}>
       <h1 className={classes.logo}>
-        <MdMessage />
-        React Poster
+        <MdModeEdit />
+        Post it
       </h1>
       <p>
         <button className={classes.button} onClick={onCreatePost}>
