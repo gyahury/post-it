@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 
 import PostList from "../components/PostList";
-import MainHeader from "../components/MainHeader";
 
 function Posts() {
   return (

@@ -1,0 +1,24 @@
+.details {
+    padding: 1rem;
+    width: 30rem;
+  }
+  
+  .title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0f0f0f;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .text {
+    white-space: pre-wrap;
+    font-size: 0.75rem;
+    margin: 0.25rem 0 0 0;
+    color: #484649;
+    font-style: italic;
+  }
+  
+  .details a {
+    text-decoration: none;
+  }
